@@ -129,7 +129,8 @@ public class LoadDll : MonoBehaviour
             UnityEngine.Debug.Log($"将于{i}s后自动退出");
             yield return new WaitForSeconds(1f);
         }
-        Application.Quit();
+        UnityEngine.Debug.Log($"不执行自动退出~~~");
+        //Application.Quit();
     }
 
     private static void Run_InstantiateComponentByAsset()
