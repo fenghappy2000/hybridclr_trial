@@ -10,6 +10,6 @@ public class InstantiateByAsset : MonoBehaviour
 
     void Start()
     {
-        Debug.Log($"[InstantiateByAsset] text:{text}, 这个脚本通过挂载到资源的方式实例化");
+        Debug.Log($"[InstantiateByAsset] text:{text}, 这个脚本通过挂载到资源的方式实例化 222");
     }
 }
